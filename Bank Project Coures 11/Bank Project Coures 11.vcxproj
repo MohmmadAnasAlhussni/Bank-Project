@@ -125,6 +125,9 @@
   <ItemGroup>
     <ClCompile Include="Bank Project Coures 11.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="clsString.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
