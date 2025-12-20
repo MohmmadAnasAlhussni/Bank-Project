@@ -26,5 +26,8 @@ C:\Users\DELL\Desktop\Bank Project Coures 11\Bank Project Coures 11\Bank Project
 C:\Users\DELL\Desktop\Bank Project Coures 11\Bank Project Coures 11\clsUtitl.h(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
   (compiling source file 'Bank%20Project%20Coures%2011.cpp')
   
-C:\Users\DELL\Desktop\Bank Project Coures 11\Bank Project Coures 11\clsUtitl.h(33,1): warning C4715: 'clsUtitl::GetRandomCharacter': not all control paths return a value
+C:\Users\DELL\Desktop\Bank Project Coures 11\Bank Project Coures 11\Bank Project Coures 11.cpp(5,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+C:\Users\DELL\Desktop\Bank Project Coures 11\Bank Project Coures 11\clsInputValidate.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'Bank%20Project%20Coures%2011.cpp')
+  
   Bank Project Coures 11.vcxproj -> C:\Users\DELL\Desktop\Bank Project Coures 11\x64\Debug\Bank Project Coures 11.exe
