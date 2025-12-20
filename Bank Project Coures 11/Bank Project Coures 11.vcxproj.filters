@@ -26,5 +26,8 @@
     <ClInclude Include="clsDate.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="clsUtitl.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
