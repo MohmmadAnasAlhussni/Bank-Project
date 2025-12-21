@@ -17,35 +17,37 @@ void ReadClientInfo(clsBankClient& Client) {
 	Client.AccountBalance = clsInputValidate::ReadDblNumber();
 
 }
-void UpdateClient() {
+void AddNewClient() {
 	string AccountNumber; 
-	cout << "Please Enter Client Account Number : "; 
+	cout << "Please Enter Account Number : "; 
 	AccountNumber = clsInputValidate::ReadString(); 
-	while (!clsBankClient::IsClientExist(AccountNumber)) {
-		cout << "\nAccount number is not found, choose another one: ";
+	while (clsBankClient::IsClientExist(AccountNumber)) {
+		cout << "\n Account Number Is Already Used, Choose another one :"; 
 		AccountNumber = clsInputValidate::ReadString(); 
 	}
-	clsBankClient Client = clsBankClient::Find(AccountNumber); 
-	Client.Print(); 
-	cout << "Update Client Info :\n ";  
-	ReadClientInfo(Client);
+	clsBankClient Client = clsBankClient::GetAddNewClientObject(AccountNumber); 
+	ReadClientInfo(Client); 
 	clsBankClient::enSaveResult SaveResult; 
-	SaveResult = Client.Save(); 
+	SaveResult = Client.Save();
 	switch (SaveResult)
 	{
 	case clsBankClient::svFaildEmptyObject:
 		cout << "\nError account was not saved because it's Empty";
 		break;
 	case clsBankClient::svSucceeded:
-		cout << "\nAccount Updated Successfully :-)\n";
+
+		cout << "\nAccount Addeded Successfully :-)\n";
 		Client.Print();
+		break;
+	case clsBankClient::svFaildAccountNumberExists:
+		cout << "\nError account was not saved because account number is used!\n";
 		break;
 
 	}
 }
 int main()
 {
-	UpdateClient(); 
+	AddNewClient();
 	system("pause>0"); 
 	return 0; 
 }
