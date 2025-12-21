@@ -4,22 +4,74 @@
 #include <fstream>
 #include <string>
 #include "clsString.h" ;
-class clsBankClient : public clsPerson 
+class clsBankClient : public clsPerson
 {
-private : 
-	enum enMode {EmptyMode = 0 , UpdateMode = 1};
-	enMode _Mode; 
-	string _AccountNumber; 
+private:
+	enum enMode { EmptyMode = 0, UpdateMode = 1 };
+	enMode _Mode;
+	string _AccountNumber;
 	string _PinCode;
-	double _AccountBalance; 
+	double _AccountBalance;
+
 	// Abstraction Method (Hidding Methode To Object )  
-	static clsBankClient _ConvertLineToClientObject(string Line , string Seperator="#//#") {
-		vector<string>vClientData; 
-		vClientData = clsString::Split(Line, Seperator); 
-		return clsBankClient(enMode::UpdateMode,vClientData[0], vClientData[1], vClientData[2], vClientData[3], vClientData[4], vClientData[5], stod(vClientData[6])); 
+	static clsBankClient _ConvertLineToClientObject(string Line, string Seperator = "#//#") {
+		vector<string>vClientData;
+		vClientData = clsString::Split(Line, Seperator);
+		return clsBankClient(enMode::UpdateMode, vClientData[0], vClientData[1], vClientData[2], vClientData[3], vClientData[4], vClientData[5], stod(vClientData[6]));
+	}
+	
+	static string _ConvertClientObjectToLine(clsBankClient Client, string Seperator = "#//#") {
+		string DataLine="";
+		DataLine += Client.FirstName + Seperator; 
+		DataLine += Client.LastName + Seperator; 
+		DataLine += Client.Email + Seperator; 
+		DataLine += Client.Phone + Seperator; 
+		DataLine += Client.AccountNumber() + Seperator;
+		DataLine += Client.PinCode + Seperator; 
+		DataLine += to_string(Client.getAccountBalance());
+		return DataLine;
 	}
 	static clsBankClient _GetEmptyClient() {
 		return clsBankClient(enMode::EmptyMode,"", "", "", "", "", "", 0);
+	}
+	
+	static vector<clsBankClient> _LoadClientsDataFromFile() {
+		vector<clsBankClient> vClients; 
+		fstream MyFile; 
+		MyFile.open("Clients.txt", ios::in); 
+		if (MyFile.is_open()) {
+			string DataLine; 
+			while (getline(MyFile, DataLine)) {
+				clsBankClient Client = _ConvertLineToClientObject(DataLine); 
+				vClients.push_back(Client); 
+			}
+			MyFile.close(); 
+		}
+		return vClients; 
+	}
+	static void _SaveClientDataToFile(vector<clsBankClient>vClient) {
+		fstream	MyFile;
+		MyFile.open("Clients.txt", ios::out );
+		if (MyFile.is_open()) {
+			string DataLine; 
+			for (clsBankClient& Client : vClient) {
+				DataLine = _ConvertClientObjectToLine(Client); 
+				MyFile << DataLine << endl; 
+			}
+			MyFile.close(); 
+		}
+	}
+
+		void _Update() {
+		vector<clsBankClient> _vClients; 
+		_vClients = _LoadClientsDataFromFile(); 
+		for (clsBankClient& Client : _vClients) {
+			if (Client.AccountNumber() == AccountNumber()) {
+				Client = *this; 
+				break; 
+			}
+		}
+		_SaveClientDataToFile(_vClients); 
 	}
 public : 
 	clsBankClient(enMode Mode,string FirstName, string LastName, string Email, string Phone, string AccountNumber, string PinCode, double AccountBalance) :
@@ -101,5 +153,18 @@ public :
 		 clsBankClient Client = Find(AccountNumber);
 		 return (!Client.IsEmpty());
 	 }
+	 enum enSaveResult {svFaildEmptyObject = 0 , svSucceeded = 1 };
+	 enSaveResult Save() {
+		 switch (_Mode)
+		 {
+		 case enMode::EmptyMode:
+			 return enSaveResult::svFaildEmptyObject; 
+			 break;
+		 case clsBankClient::UpdateMode:
+			 _Update(); 
+			 return enSaveResult::svSucceeded; 
+			 break;
+		 }
+	}
 };
 

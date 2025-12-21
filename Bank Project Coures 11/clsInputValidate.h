@@ -76,5 +76,10 @@ public :
 	static bool IsValidDate(clsDate Date) {
 		return Date.IsValidDate(); 
 	}
+	static string ReadString() {
+		string S1;
+		getline(cin >> ws, S1); 
+		return S1; 
+	}
 };
 
