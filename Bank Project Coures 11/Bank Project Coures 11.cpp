@@ -1,48 +1,44 @@
 #include <iostream>
 #include "clsInputValidate.h" ; 
-#include "clsBankClient.h" ; 
+#include "clsBankClient.h" ;
+#include <iomanip>
 using namespace std; 
-void ReadClientInfo(clsBankClient& Client) {
-	cout << "First Name  : "; 
-	Client.FirstName = clsInputValidate::ReadString(); 
-	cout << "Last Name  : ";
-	Client.LastName = clsInputValidate::ReadString();
-	cout << "Email  : ";
-	Client.Email = clsInputValidate::ReadString();
-	cout << "Phone : ";
-	Client.Phone = clsInputValidate::ReadString();
-	cout << "Password  : ";
-	Client.PinCode = clsInputValidate::ReadString();
-	cout << "Account Balance : ";
-	Client.AccountBalance = clsInputValidate::ReadDblNumber();
-
+void PrintClientRecoudLine(clsBankClient Client) {
+	cout << "| " << left << setw(15) << Client.AccountNumber();
+	cout << "| " << left << setw(20) << Client.FullName();
+	cout << "| " << left << setw(12) << Client.Phone;
+	cout << "| " << left << setw(20) << Client.Email;
+	cout << "| " << left << setw(10) << Client.PinCode;
+	cout << "| " << left << setw(12) << Client.AccountBalance;
 }
-void DeleteClient() {
-	string AccountNumber; 
-	cout << "Please Enter Account Number :"; 
-	AccountNumber = clsInputValidate::ReadString(); 
-	while (!clsBankClient::IsClientExist(AccountNumber)) {
-		cout << " Account Number is not found ,choose another one :";
-		AccountNumber = clsInputValidate::ReadString(); 
+void ShowClientList() {
+	vector<clsBankClient>vClient = clsBankClient::GetClientsList(); 
+	cout << "\n\t\t\t\tClient List (" << vClient.size() << ") Client(s)\n";
+	cout << "\n_____________________________________________";
+	cout << "______________________________________________________\n" << endl; 
+	cout << "| " << left << setw(15) << "Account Number "; 
+	cout << "| " << left << setw(20) << "Client Name ";
+	cout << "| " << left << setw(12) << "Phone";
+	cout << "| " << left << setw(20) << "Email";
+	cout << "| " << left << setw(10) << "PinCode";
+	cout << "| " << left << setw(12) << "Balance";
+	cout << "\n_____________________________________________";
+	cout << "______________________________________________________\n" << endl;
+	if (vClient.size() == 0) {
+		cout << "\t\t\tNo Client Avalible in The System!";
 	}
-	clsBankClient Client = clsBankClient::Find(AccountNumber); 
-	Client.Print(); 
-	cout << "\nAre You Sure you want Delete this Client?y/n?"; 
-	char Answer = 'n';
-	cin >> Answer;
-	if (Answer == 'y' || Answer == 'Y') {
-		if (Client.Delelte()) {
-			cout << "Client Delete Successfully :-)"; 
-			Client.Print();
+	else {
+		for (clsBankClient& Client : vClient) {
+			PrintClientRecoudLine(Client); 
+			cout << endl; 
 		}
-		else {
-			cout << "Error Client was not Delete\n"; 
-		}
+		cout << "\n_____________________________________________";
+		cout << "______________________________________________________\n" << endl;
 	}
 }
 int main()
 {
-	DeleteClient(); 
+	ShowClientList();
 	system("pause>0"); 
 	return 0; 
 }
