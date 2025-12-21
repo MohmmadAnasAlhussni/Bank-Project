@@ -12,6 +12,7 @@ private:
 	string _AccountNumber;
 	string _PinCode;
 	double _AccountBalance;
+	bool _MarkForDelete = false; 
 
 	// Abstraction Method (Hidding Methode To Object )  
 	static clsBankClient _ConvertLineToClientObject(string Line, string Seperator = "#//#") {
@@ -52,11 +53,13 @@ private:
 	static void _SaveClientDataToFile(vector<clsBankClient>vClient) {
 		fstream	MyFile;
 		MyFile.open("Clients.txt", ios::out );
+		string DataLine;
 		if (MyFile.is_open()) {
-			string DataLine; 
 			for (clsBankClient& Client : vClient) {
-				DataLine = _ConvertClientObjectToLine(Client); 
-				MyFile << DataLine << endl; 
+				if (Client._MarkForDelete == false) {
+					DataLine = _ConvertClientObjectToLine(Client);
+					MyFile << DataLine << endl;
+			}
 			}
 			MyFile.close(); 
 		}
@@ -198,5 +201,18 @@ public :
 	 static clsBankClient GetAddNewClientObject(string AccountNumber) {
 		 return clsBankClient(enMode::AddNewMode,"","","","",AccountNumber,"",0);
 	}
+	 bool Delelte() {
+		 vector<clsBankClient>_vClient = _LoadClientsDataFromFile();
+		 for (clsBankClient& Client : _vClient) {
+			 if (Client.AccountNumber() == _AccountNumber) {
+				 Client._MarkForDelete = true;
+				 break; 
+			 }
+			 
+		 }
+		 _SaveClientDataToFile(_vClient); 
+		 *this = _GetEmptyClient();
+		 return true; 
+	 }
 };
 

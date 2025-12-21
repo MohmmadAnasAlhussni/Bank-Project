@@ -17,37 +17,32 @@ void ReadClientInfo(clsBankClient& Client) {
 	Client.AccountBalance = clsInputValidate::ReadDblNumber();
 
 }
-void AddNewClient() {
+void DeleteClient() {
 	string AccountNumber; 
-	cout << "Please Enter Account Number : "; 
+	cout << "Please Enter Account Number :"; 
 	AccountNumber = clsInputValidate::ReadString(); 
-	while (clsBankClient::IsClientExist(AccountNumber)) {
-		cout << "\n Account Number Is Already Used, Choose another one :"; 
+	while (!clsBankClient::IsClientExist(AccountNumber)) {
+		cout << " Account Number is not found ,choose another one :";
 		AccountNumber = clsInputValidate::ReadString(); 
 	}
-	clsBankClient Client = clsBankClient::GetAddNewClientObject(AccountNumber); 
-	ReadClientInfo(Client); 
-	clsBankClient::enSaveResult SaveResult; 
-	SaveResult = Client.Save();
-	switch (SaveResult)
-	{
-	case clsBankClient::svFaildEmptyObject:
-		cout << "\nError account was not saved because it's Empty";
-		break;
-	case clsBankClient::svSucceeded:
-
-		cout << "\nAccount Addeded Successfully :-)\n";
-		Client.Print();
-		break;
-	case clsBankClient::svFaildAccountNumberExists:
-		cout << "\nError account was not saved because account number is used!\n";
-		break;
-
+	clsBankClient Client = clsBankClient::Find(AccountNumber); 
+	Client.Print(); 
+	cout << "\nAre You Sure you want Delete this Client?y/n?"; 
+	char Answer = 'n';
+	cin >> Answer;
+	if (Answer == 'y' || Answer == 'Y') {
+		if (Client.Delelte()) {
+			cout << "Client Delete Successfully :-)"; 
+			Client.Print();
+		}
+		else {
+			cout << "Error Client was not Delete\n"; 
+		}
 	}
 }
 int main()
 {
-	AddNewClient();
+	DeleteClient(); 
 	system("pause>0"); 
 	return 0; 
 }
