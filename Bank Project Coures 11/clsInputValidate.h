@@ -46,6 +46,7 @@ public :
 		}
 		return Number; 
 	}
+
 	static int ReadIntNumberBetween(int From, int To, string ErrorMessage = "Number is not within range please Enter agin") {
 		int Number; 
 		Number = ReadIntNumber();
@@ -54,6 +55,15 @@ public :
 			Number = ReadIntNumber();
 		}
 		return Number; 
+	}
+	static short ReadShortNumberBetween(short From, short To, string ErrorMessage = "Number is not within range please Enter agin") {
+		short Number;
+		Number = ReadIntNumber();
+		while (!IsNumberBetween(Number, From, To)) {
+			cout << ErrorMessage << endl;
+			Number = ReadIntNumber();
+		}
+		return Number;
 	}
 	static double ReadDblNumberBetween( double From, double To, string ErrorMessage = "Number is not within range please Enter agin") {
 		double Number;
