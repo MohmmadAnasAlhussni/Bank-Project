@@ -60,8 +60,7 @@ public :
 		case clsBankClient::svFaildAccountNumberExists:
 			cout << "Error Account was not saved becauce account number is used!\n"; 
 			break;
-		default:
-			break;
+
 		}
 	}
 };

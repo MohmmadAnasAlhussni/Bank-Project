@@ -5,6 +5,7 @@
 #include "clsClientListScreen.h" ; 
 #include "clsAddNewClientScreen.h" ; 
 #include "clsDeleteClientScreen.h"  ; 
+#include "clsUpdateClientScreen.h" ; 
 class clsMainScreen : protected clsScreen
 {
 private : 
@@ -32,7 +33,8 @@ private :
 		clsDeleteClientScreen::ShowDeleteClientScreen(); 
 	}
 	static void _ShowUpdateClientScreen() {
-		cout << "Update Client Screen Will be here...\n";
+		//cout << "Update Client Screen Will be here...\n";
+		clsUpdateClientScreen::ShowUpdatClientScreen();
 	}
 	static void _ShowFindClientScreen() {
 		cout << "Find Client Screen Will be here...\n";
