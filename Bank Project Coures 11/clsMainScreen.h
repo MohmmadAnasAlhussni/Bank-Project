@@ -2,6 +2,7 @@
 #include "clsScreen.h" ; 
 #include <iomanip>
 #include "clsInputValidate.h"  ; 
+#include "clsClientListScreen.h" ; 
 class clsMainScreen : protected clsScreen
 {
 private : 
@@ -17,7 +18,8 @@ private :
 		return Choice; 
 	}
 	static void _ShowAllClientsScreen() {
-		cout << "Client List Screen Will be here...\n"; 
+		//cout << "Client List Screen Will be here...\n"; 
+		clsClientListScreen::ShowClientsList(); 
 	}
 	static void _ShowAddNewClientScreen() {
 		cout << "Add New Screen Will be here...\n";

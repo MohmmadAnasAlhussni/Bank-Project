@@ -5,12 +5,12 @@ class clsScreen
 {
 protected : 
 	static void _DrawScreenHeader(string Title , string SubTitle=""){
-		cout << "\t\t\t\t\t____________________________________________\n\n"; 
-		cout <<"\t\t\t\t\t" << Title << "\n";
+		cout << "\t\t\t\t\t____________________________________________"; 
+		cout <<"\n\n\t\t\t\t\t" << Title << "\n";
 		if (SubTitle != "") {
-			cout << "\t\t\t\t" << SubTitle << endl;
+			cout << "\n\t\t\t\t\t" << SubTitle ;
 		}
-		cout << "\t\t\t\t\t____________________________________________\n\n";
+		cout << "\n\t\t\t\t\t____________________________________________\n\n";
 	}
 };
 
