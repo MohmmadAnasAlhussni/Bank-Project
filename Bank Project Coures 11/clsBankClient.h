@@ -217,5 +217,13 @@ public :
 	 static vector<clsBankClient> GetClientsList() {
 		 return _LoadClientsDataFromFile(); 
 	 }
+	 static double GetTotalBalances() {
+		 double TotalBalances = 0; 
+		 vector<clsBankClient>vClients = _LoadClientsDataFromFile(); 
+		 for (clsBankClient& C : vClients) {
+			 TotalBalances += C.AccountBalance; 
+		 }
+		 return TotalBalances; 
+	 }
 };
 

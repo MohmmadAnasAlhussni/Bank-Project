@@ -13,6 +13,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{24467682-6B13-474D-ABC0-C82E9B7A1227}|Bank Project Coures 11\\Bank Project Coures 11.vcxproj|C:\\Users\\DELL\\Desktop\\Bank Project Coures 11\\Bank Project Coures 11\\clsInputValidate.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{24467682-6B13-474D-ABC0-C82E9B7A1227}|Bank Project Coures 11\\Bank Project Coures 11.vcxproj|solutionrelative:Bank Project Coures 11\\clsInputValidate.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{24467682-6B13-474D-ABC0-C82E9B7A1227}|Bank Project Coures 11\\Bank Project Coures 11.vcxproj|C:\\Users\\DELL\\Desktop\\Bank Project Coures 11\\Bank Project Coures 11\\clsUtitl.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{24467682-6B13-474D-ABC0-C82E9B7A1227}|Bank Project Coures 11\\Bank Project Coures 11.vcxproj|solutionrelative:Bank Project Coures 11\\clsUtitl.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,11 +26,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "clsUtitl.h",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Bank Project Coures 11\\Bank Project Coures 11\\clsUtitl.h",
+              "RelativeDocumentMoniker": "Bank Project Coures 11\\clsUtitl.h",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Bank Project Coures 11\\Bank Project Coures 11\\clsUtitl.h*",
+              "RelativeToolTip": "Bank Project Coures 11\\clsUtitl.h*",
+              "ViewState": "AgIAAJMAAAAAAAAAAAAkwLwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-22T10:10:56.658Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -38,7 +55,8 @@
               "RelativeToolTip": "Bank Project Coures 11\\clsInputValidate.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-12-21T11:24:22.825Z"
+              "WhenOpened": "2025-12-21T11:24:22.825Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -48,7 +66,7 @@
               "RelativeDocumentMoniker": "Bank Project Coures 11\\clsBankClient.h",
               "ToolTip": "C:\\Users\\DELL\\Desktop\\Bank Project Coures 11\\Bank Project Coures 11\\clsBankClient.h",
               "RelativeToolTip": "Bank Project Coures 11\\clsBankClient.h",
-              "ViewState": "AgIAAM4AAAAAAAAAAAAUwNkAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAANcAAAAAAAAAAAAUwNUAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-12-20T23:46:29.536Z",
               "EditorCaption": ""
@@ -59,9 +77,9 @@
               "Title": "Bank Project Coures 11.cpp",
               "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Bank Project Coures 11\\Bank Project Coures 11\\Bank Project Coures 11.cpp",
               "RelativeDocumentMoniker": "Bank Project Coures 11\\Bank Project Coures 11.cpp",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\Bank Project Coures 11\\Bank Project Coures 11\\Bank Project Coures 11.cpp",
-              "RelativeToolTip": "Bank Project Coures 11\\Bank Project Coures 11.cpp",
-              "ViewState": "AgIAABsAAAAAAAAAAAAAAAUAAAAaAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Bank Project Coures 11\\Bank Project Coures 11\\Bank Project Coures 11.cpp*",
+              "RelativeToolTip": "Bank Project Coures 11\\Bank Project Coures 11.cpp*",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAACEAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-12-18T22:13:47.476Z",
               "EditorCaption": ""
