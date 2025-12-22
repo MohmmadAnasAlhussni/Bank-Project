@@ -150,19 +150,19 @@ public :
 		 }
 		 return _GetEmptyClient();
 	 }
-	 void Print() {
-		 cout << "Client Card : \n"; 
-		 cout << "__________________________\n"; 
-		 cout << "Firts Name     " << FirstName << endl; 
-		 cout << "Last  Name     " << LastName << endl;
-		 cout << "Full Name      " << FullName() << endl;
-		 cout << "Email          " << Email << endl;
-		 cout << "Phone          " << Phone << endl;
-		 cout << "Account Number " << _AccountNumber << endl;
-		 cout << "Pin Code       " << _PinCode << endl;
-		 cout << "Account Balance" << _AccountBalance << endl;
-		 cout << "__________________________\n";
-	 }
+	 //void Print() {
+		// cout << "Client Card : \n"; 
+		// cout << "__________________________\n"; 
+		// cout << "Firts Name     " << FirstName << endl; 
+		// cout << "Last  Name     " << LastName << endl;
+		// cout << "Full Name      " << FullName() << endl;
+		// cout << "Email          " << Email << endl;
+		// cout << "Phone          " << Phone << endl;
+		// cout << "Account Number " << _AccountNumber << endl;
+		// cout << "Pin Code       " << _PinCode << endl;
+		// cout << "Account Balance" << _AccountBalance << endl;
+		// cout << "__________________________\n";
+	 //}
 	 static bool IsClientExist(string AccountNumber) {
 		 clsBankClient Client = Find(AccountNumber);
 		 return (!Client.IsEmpty());
@@ -175,9 +175,7 @@ public :
 			 if (IsEmpty()) {
 				 return enSaveResult::svFaildEmptyObject;
 			 }
-
 		 }
-
 		 case clsBankClient::UpdateMode:
 		 {
 			 _Update();
