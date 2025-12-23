@@ -1,6 +1,7 @@
 #pragma once
 #include "clsScreen.h";
 #include "clsInputValidate.h" ; 
+#include "clsListUsersScreen.h" ; 
 class clsMangeUsersScreen : protected clsScreen
 {
 private : 
@@ -14,7 +15,8 @@ private :
 		return Choice;
 	}
 	static void _ShowListUsersScreen() {
-		cout << "\nList Users Screen Will be here...\n"; 
+	//	cout << "\nList Users Screen Will be here...\n"; 
+		clsListUsersScreen::ShowUsersList();
 	}
 	static void _ShowAddNewUserScreen() {
 		cout << "Add New User Screen Will be here...\n";
@@ -79,7 +81,7 @@ private :
 public : 
 	static void ShowMangeUsersMenue() {
 		system("cls");  
-		_DrawScreenHeader("\tMange User Screen"); 
+		_DrawScreenHeader("\t\tMange User Screen"); 
 		cout << setw(39) << left << "" << "=============================================\n";
 		cout << setw(39) << left << "" << "\t\t\tMange User Menue\n";
 		cout << setw(39) << left << "" << "=============================================\n";
