@@ -4,6 +4,7 @@
 #include "clsInputValidate.h" ; 
 #include "clsDepositScreen.h" ; 
 #include "clsWithdrawScreen.h";
+#include "clsTotalBalancesScreen.h" ; 
 class clsTransactionScreen : protected clsScreen
 {
 private:
@@ -24,7 +25,8 @@ private:
 		clsWithdrawScreen::ShowWithdrawScreen();
 	}
 	static void _ShowTotalBalancesScreen() {
-		cout << "Total Balances  Screen Will be here...\n";
+		//cout << "Total Balances  Screen Will be here...\n";
+		clsTotalBalancesScreen::ShowTotalBalances();
 	}
 	static void _GoToBackTrasnctionMenue() {
 		cout << "\nPress any key to go back to Transaction Menue... ";
@@ -58,6 +60,8 @@ private:
 		}
 		case enTransactionMenueOption::eShowMainMenue:
 		{
+	
+			
 		}
 
 		}
