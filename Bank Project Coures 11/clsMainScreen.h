@@ -8,6 +8,7 @@
 #include "clsUpdateClientScreen.h" ; 
 #include "clsFindClientScreen.h" ; 
 #include "clsTransactionScreen.h" ; 
+#include "clsMangeUsersScreen.h" ; 
 class clsMainScreen : protected clsScreen
 {
 private : 
@@ -48,7 +49,8 @@ private :
 		
 	}
 	static void _ShowMangeUserMenue() {
-		cout << "Mange User Screen Will be here...\n";
+		//cout << "Mange User Screen Will be here...\n";
+		clsMangeUsersScreen::ShowMangeUsersMenue(); 
 	}
 	static void _ShowEndScreen() {
 		cout << "End Screen"; 
