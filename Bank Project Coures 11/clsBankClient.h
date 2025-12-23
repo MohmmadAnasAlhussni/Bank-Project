@@ -223,5 +223,11 @@ public :
 		 }
 		 return TotalBalances; 
 	 }
+	 void Deposit(double Amount) {
+		 _AccountBalance += Amount; 
+		 Save(); 
+	 }
+	 
+	 
 };
 
