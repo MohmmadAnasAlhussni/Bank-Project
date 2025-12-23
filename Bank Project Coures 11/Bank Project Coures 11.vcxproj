@@ -141,6 +141,7 @@
     <ClInclude Include="clsTransactionScreen.h" />
     <ClInclude Include="clsUpdateClientScreen.h" />
     <ClInclude Include="clsUtitl.h" />
+    <ClInclude Include="clsWithdrawScreen.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

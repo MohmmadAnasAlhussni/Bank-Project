@@ -227,7 +227,16 @@ public :
 		 _AccountBalance += Amount; 
 		 Save(); 
 	 }
-	 
+	 bool Withdraw(double Amount) {
+		 if (Amount > AccountBalance) {
+			 return false; 
+		 }
+		 else {
+			 _AccountBalance -= Amount; 
+			 Save(); 
+
+		 }
+	 }
 	 
 };
 

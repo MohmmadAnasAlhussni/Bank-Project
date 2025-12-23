@@ -3,6 +3,7 @@
 #include <iomanip>
 #include "clsInputValidate.h" ; 
 #include "clsDepositScreen.h" ; 
+#include "clsWithdrawScreen.h";
 class clsTransactionScreen : protected clsScreen
 {
 private:
@@ -19,13 +20,14 @@ private:
 		clsDepositScreen::ShowDepositScreen(); 
 	}
 	static void _ShowWithdrawScreen() {
-		cout << "WithDraw  Screen Will be here...\n";
+		//cout << "WithDraw  Screen Will be here...\n";
+		clsWithdrawScreen::ShowWithdrawScreen();
 	}
 	static void _ShowTotalBalancesScreen() {
 		cout << "Total Balances  Screen Will be here...\n";
 	}
 	static void _GoToBackTrasnctionMenue() {
-		cout << "Press any key to go back to Transaction Menue... ";
+		cout << "\nPress any key to go back to Transaction Menue... ";
 		system("pause>0");
 		ShowTransactionsMenue();
 	}
