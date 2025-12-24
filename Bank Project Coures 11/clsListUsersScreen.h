@@ -28,7 +28,7 @@ public :
 	static void ShowUsersList() {
 		vector<clsUser>vUser = clsUser::GetUserList(); 
 		string Title = "\t User List Screen"; 
-		string SubTitle = "\t    (" + to_string(vUser.size()) + "User(s)\n";
+		string SubTitle = "\t    (" + to_string(vUser.size()) + ")User(s)\n";
 		_DrawScreenHeader(Title, SubTitle); 
 		cout << setw(8) << left << "" << "\n\t________________________________";
 		cout << "__________________________________________________________________\n" << endl;
