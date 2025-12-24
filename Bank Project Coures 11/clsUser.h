@@ -190,7 +190,7 @@ public :
 	
 		}
 	}
-	bool IsUserExist(string UserName) {
+	bool static IsUserExist(string UserName) {
 		clsUser User = clsUser::Find(UserName);
 		return(!User.IsEmpty());
 	}
@@ -213,5 +213,11 @@ public :
 	static vector<clsUser>GetUserList() {
 		return _LoadUserDataFromFile();
 	}
+
+	enum enPermissions {
+		eAll = -1 , pListClients = 1 ,  pAddNewClient = 2 , 
+		pDeleteClient = 4 , pUpdateClient = 8 ,  pFindClient = 16 , pTransaction = 32 , pMangeUsers =64  
+	};
+
 };
 

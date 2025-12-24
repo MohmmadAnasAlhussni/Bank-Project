@@ -2,6 +2,7 @@
 #include "clsScreen.h";
 #include "clsInputValidate.h" ; 
 #include "clsListUsersScreen.h" ; 
+#include "clsAddNewUserScreen.h" ;  
 class clsMangeUsersScreen : protected clsScreen
 {
 private : 
@@ -19,7 +20,8 @@ private :
 		clsListUsersScreen::ShowUsersList();
 	}
 	static void _ShowAddNewUserScreen() {
-		cout << "Add New User Screen Will be here...\n";
+	//	cout << "Add New User Screen Will be here...\n";
+		clsAddNewUserScreen::ShowAddNewUserScreen(); 
 	}
 	static void _ShowDeleteUserScreen() {
 		cout << "Delete User Screen Will be here...\n";
