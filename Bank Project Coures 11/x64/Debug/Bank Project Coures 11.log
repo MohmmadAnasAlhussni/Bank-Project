@@ -177,6 +177,18 @@ C:\Users\DELL\Desktop\Bank Project Coures 11\Bank Project Coures 11\clsDeleteUse
 C:\Users\DELL\Desktop\Bank Project Coures 11\Bank Project Coures 11\clsDeleteUserScreen.h(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
   (compiling source file 'Bank%20Project%20Coures%2011.cpp')
   
+C:\Users\DELL\Desktop\Bank Project Coures 11\Bank Project Coures 11\clsMangeUsersScreen.h(7,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'Bank%20Project%20Coures%2011.cpp')
+  
+C:\Users\DELL\Desktop\Bank Project Coures 11\Bank Project Coures 11\clsUpdateUserScreen.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'Bank%20Project%20Coures%2011.cpp')
+  
+C:\Users\DELL\Desktop\Bank Project Coures 11\Bank Project Coures 11\clsUpdateUserScreen.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'Bank%20Project%20Coures%2011.cpp')
+  
+C:\Users\DELL\Desktop\Bank Project Coures 11\Bank Project Coures 11\clsUpdateUserScreen.h(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'Bank%20Project%20Coures%2011.cpp')
+  
 C:\Users\DELL\Desktop\Bank Project Coures 11\Bank Project Coures 11\clsBankClient.h(198,1): warning C4715: 'clsBankClient::Save': not all control paths return a value
 C:\Users\DELL\Desktop\Bank Project Coures 11\Bank Project Coures 11\clsBankClient.h(239,1): warning C4715: 'clsBankClient::Withdraw': not all control paths return a value
 C:\Users\DELL\Desktop\Bank Project Coures 11\Bank Project Coures 11\clsUser.h(192,1): warning C4715: 'clsUser::Save': not all control paths return a value
