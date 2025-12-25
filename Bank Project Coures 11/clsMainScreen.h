@@ -9,31 +9,32 @@
 #include "clsFindClientScreen.h" ; 
 #include "clsTransactionScreen.h" ; 
 #include "clsMangeUsersScreen.h" ; 
+#include "Global.h" ; 
 class clsMainScreen : protected clsScreen
 {
-private : 
+private:
 	enum enMainMenueOption {
-		eListClients = 1 , eAddNewClient = 2 , eDeleteClient = 3 , 
-		eUpdateClient = 4 , eFindClient = 5 , eShowTransactionsMenue = 6 , 
-		eMangeUsers=7 , eExit =8 
+		eListClients = 1, eAddNewClient = 2, eDeleteClient = 3,
+		eUpdateClient = 4, eFindClient = 5, eShowTransactionsMenue = 6,
+		eMangeUsers = 7, eExit = 8
 	};
 
-	static short _ReadMainMenueOption(){
+	static short _ReadMainMenueOption() {
 		cout << setw(39) << left << "" << "Choose what do you want [1-8]?";
-		short Choice = clsInputValidate::ReadShortNumberBetween(1, 8 , "Enter Number between 1 to 8 ");
-		return Choice; 
+		short Choice = clsInputValidate::ReadShortNumberBetween(1, 8, "Enter Number between 1 to 8 ");
+		return Choice;
 	}
 	static void _ShowAllClientsScreen() {
 		//cout << "Client List Screen Will be here...\n"; 
-		clsClientListScreen::ShowClientsList(); 
+		clsClientListScreen::ShowClientsList();
 	}
 	static void _ShowAddNewClientScreen() {
 		//cout << "Add New Screen Will be here...\n";
-		clsAddNewClientScreen::ShowAddNewClientScreen(); 
+		clsAddNewClientScreen::ShowAddNewClientScreen();
 	}
 	static void _ShowDeleteClientScreen() {
 		//cout << "Delete Client Screen Will be here...\n";
-		clsDeleteClientScreen::ShowDeleteClientScreen(); 
+		clsDeleteClientScreen::ShowDeleteClientScreen();
 	}
 	static void _ShowUpdateClientScreen() {
 		//cout << "Update Client Screen Will be here...\n";
@@ -41,19 +42,22 @@ private :
 	}
 	static void _ShowFindClientScreen() {
 		//cout << "Find Client Screen Will be here...\n";
-		clsFindClientScreen::ShowFindClientScreen(); 
+		clsFindClientScreen::ShowFindClientScreen();
 	}
 	static void _ShowTransactionMenue() {
 		//cout << "Transaction Menue Screen Will be here...\n";
-		clsTransactionScreen::ShowTransactionsMenue(); 
-		
+		clsTransactionScreen::ShowTransactionsMenue();
+
 	}
 	static void _ShowMangeUserMenue() {
 		//cout << "Mange User Screen Will be here...\n";
-		clsMangeUsersScreen::ShowMangeUsersMenue(); 
+		clsMangeUsersScreen::ShowMangeUsersMenue();
 	}
-	static void _ShowEndScreen() {
-		cout << "End Screen"; 
+	//static void _ShowEndScreen() {
+	//	cout << "End Screen"; 
+	//}
+	static void _Logout() {
+		CurrentUser = clsUser::Find("", ""); 
 	}
 	static void _GoToBackMainMenue() {
 		cout << "Press any key to go back to Main Menue... ";
@@ -117,7 +121,8 @@ private :
 		case clsMainScreen::eExit:
 		{
 			system("cls");
-			_ShowEndScreen();
+			//_ShowEndScreen();
+			_Logout(); 
 			break;
 		}
 		}
