@@ -5,6 +5,7 @@
 #include "clsAddNewUserScreen.h" ;  
 #include "clsDeleteUserScreen.h" ; 
 #include "clsUpdateUserScreen.h" ; 
+#include "clsFindUserScreen.h" ; 
 class clsMangeUsersScreen : protected clsScreen
 {
 private : 
@@ -34,7 +35,8 @@ private :
 		clsUpdateUserScreen::ShowUpdateUserScreen(); 
 	}
 	static void _ShowFindUserScreen() {
-		cout << "Find User Screen Will be here...\n";
+	//	cout << "Find User Screen Will be here...\n";
+		clsFindUserScreen::ShowFindUserScreen(); 
 	}
 	static void _GoBackToMangeUsersMenue(){
 		cout << "Press any key to go back to Mange User Menue... ";
