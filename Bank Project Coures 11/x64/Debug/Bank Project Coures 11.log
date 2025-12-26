@@ -36,13 +36,16 @@ C:\Users\DELL\Desktop\Bank Project Coures 11\Bank Project Coures 11\clsScreen.h(
 C:\Users\DELL\Desktop\Bank Project Coures 11\Bank Project Coures 11\Global.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
   (compiling source file 'Bank%20Project%20Coures%2011.cpp')
   
+C:\Users\DELL\Desktop\Bank Project Coures 11\Bank Project Coures 11\clsScreen.h(6,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'Bank%20Project%20Coures%2011.cpp')
+  
+C:\Users\DELL\Desktop\Bank Project Coures 11\Bank Project Coures 11\clsDate.h(6,9): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'Bank%20Project%20Coures%2011.cpp')
+  
 C:\Users\DELL\Desktop\Bank Project Coures 11\Bank Project Coures 11\clsMainScreen.h(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
   (compiling source file 'Bank%20Project%20Coures%2011.cpp')
   
 C:\Users\DELL\Desktop\Bank Project Coures 11\Bank Project Coures 11\clsInputValidate.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-  (compiling source file 'Bank%20Project%20Coures%2011.cpp')
-  
-C:\Users\DELL\Desktop\Bank Project Coures 11\Bank Project Coures 11\clsDate.h(6,9): warning C4067: unexpected tokens following preprocessor directive - expected a newline
   (compiling source file 'Bank%20Project%20Coures%2011.cpp')
   
 C:\Users\DELL\Desktop\Bank Project Coures 11\Bank Project Coures 11\clsMainScreen.h(5,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline

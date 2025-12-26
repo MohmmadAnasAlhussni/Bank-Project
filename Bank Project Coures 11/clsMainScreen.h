@@ -137,6 +137,7 @@ public :
 	static void ShowMainMenue() {
 		system("cls"); 
 		_DrawScreenHeader("\t\tMain Screen"); 
+		
 		cout << setw(39) << left << "" << "=============================================\n"; 
 		cout << setw(39) << left << "" << "\t\t\tMain Menue\n";
 		cout << setw(39) << left << "" << "=============================================\n";

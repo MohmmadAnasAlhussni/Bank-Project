@@ -93,6 +93,7 @@ public :
 		}
 		system("cls");  
 		_DrawScreenHeader("\t\tMange User Screen"); 
+		
 		cout << setw(39) << left << "" << "=============================================\n";
 		cout << setw(39) << left << "" << "\t\t\tMange User Menue\n";
 		cout << setw(39) << left << "" << "=============================================\n";

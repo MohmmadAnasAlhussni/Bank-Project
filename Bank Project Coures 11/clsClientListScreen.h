@@ -39,6 +39,7 @@ public :
 		string Title = "\tClint List Screen"; 
 		string SubTitle = "\t   (" + to_string(vClients.size()) + ") Client(s)"; 
 		_DrawScreenHeader(Title,SubTitle);
+		
 		cout << setw(8) << left << "" << "\n\t________________________________"; 
 		cout << "__________________________________________________________________\n" << endl; 
 		cout << setw(8) << left << "" << "| " << left << setw(15) << "Accout Number";

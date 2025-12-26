@@ -23,6 +23,7 @@ public :
 			return;
 		}
 		_DrawScreenHeader("\tFind Client Screen"); 
+	
 		string AccountNumber = ""; 
 		cout << "\nPlease Enter Account Number"; 
 		AccountNumber = clsInputValidate::ReadString(); 
