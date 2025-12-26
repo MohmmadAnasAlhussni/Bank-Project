@@ -68,6 +68,7 @@ private:
 		ShowMainMenue(); 
 	}
 
+
 	static void _PerformMainMenueOption(enMainMenueOption MainMenueOption) {
 		switch (MainMenueOption)
 		{
@@ -126,6 +127,7 @@ private:
 			system("cls");
 			//_ShowEndScreen();
 			_Logout(); 
+			
 		
 			break;
 		}

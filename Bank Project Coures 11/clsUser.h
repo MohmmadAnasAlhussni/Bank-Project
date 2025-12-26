@@ -218,6 +218,14 @@ public :
 		eAll = -1 , pListClients = 1 ,  pAddNewClient = 2 , 
 		pDeleteClient = 4 , pUpdateClient = 8 ,  pFindClient = 16 , pTransaction = 32 , pMangeUsers =64  
 	};
-
+	bool CheckAccessPermissions(enPermissions Permissions) {
+		if (this->Permissions == enPermissions::eAll) {
+			return true; 
+		}
+		if ((Permissions & this->Permissions) == Permissions)
+			return true;
+		else
+			return false;
+	}
 };
 

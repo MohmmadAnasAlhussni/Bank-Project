@@ -104,8 +104,7 @@ public :
 		case clsUser::svFaildUserExists:
 			cout << "Error UserName was not saved becauce UserName is used!\n";
 			break;
-		default:
-			break;
+	
 		}
 	}
 };

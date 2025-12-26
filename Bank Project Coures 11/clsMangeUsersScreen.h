@@ -88,6 +88,9 @@ private :
 	}
 public : 
 	static void ShowMangeUsersMenue() {
+		if (!CheckAccessRights(clsUser::enPermissions::pMangeUsers)) {
+			return;
+		}
 		system("cls");  
 		_DrawScreenHeader("\t\tMange User Screen"); 
 		cout << setw(39) << left << "" << "=============================================\n";
