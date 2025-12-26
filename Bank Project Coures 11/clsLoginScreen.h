@@ -2,6 +2,7 @@
 #include "clsScreen.h"; 
 #include "Global.h" ; 
 #include "clsMainScreen.h" ; 
+
 class clsLoginScreen : protected clsScreen 
 {
 private : 

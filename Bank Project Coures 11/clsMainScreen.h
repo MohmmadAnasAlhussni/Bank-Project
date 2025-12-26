@@ -10,6 +10,7 @@
 #include "clsTransactionScreen.h" ; 
 #include "clsMangeUsersScreen.h" ; 
 #include "Global.h" ; 
+
 class clsMainScreen : protected clsScreen
 {
 private:
@@ -58,6 +59,8 @@ private:
 	//}
 	static void _Logout() {
 		CurrentUser = clsUser::Find("", ""); 
+		//	clsLoginScreen::ShowLoginScreen();
+		//then it will go back to main function  
 	}
 	static void _GoToBackMainMenue() {
 		cout << "Press any key to go back to Main Menue... ";
@@ -123,6 +126,7 @@ private:
 			system("cls");
 			//_ShowEndScreen();
 			_Logout(); 
+		
 			break;
 		}
 		}
