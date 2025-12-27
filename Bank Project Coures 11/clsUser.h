@@ -4,6 +4,7 @@
 #include <fstream>
 #include<string>
 #include <vector>
+#include "clsDate.h" ; 
 class clsUser : public clsPerson
 {
 private : 
@@ -80,6 +81,14 @@ private :
 	}
 	void _AddNew() {
 		_AddNewDataLineToFile(_ConvertUserObjectToLine(*this) ); 
+	}
+	string _PerpareLogInRecourd(string Seperator="#//#") {
+		string LoginRecourd = ""; 
+		LoginRecourd += clsDate::GetSystemDateTimeString() + Seperator; 
+		LoginRecourd += UserName + Seperator; 
+		LoginRecourd += Password + Seperator; 
+		LoginRecourd += to_string(Permissions); 
+		return LoginRecourd; 
 	}
 public : 
 	clsUser(enMode Mode, string FirstName, string LastName, string Email, string Phone,
@@ -226,6 +235,15 @@ public :
 			return true;
 		else
 			return false;
+	} 
+	void RegisterLogIn() {
+		string stDataLine = _PerpareLogInRecourd(); 
+		fstream MyFile;
+		MyFile.open("LoginRegister.txt", ios::out | ios::app); 
+		if (MyFile.is_open()) {
+			MyFile << stDataLine << endl;
+			MyFile.close(); 
+		}
 	}
 };
 

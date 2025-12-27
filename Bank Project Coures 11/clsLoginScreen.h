@@ -32,6 +32,7 @@ private :
 			CurrentUser = clsUser::Find(UserName, Password); 
 			LoginFaild = CurrentUser.IsEmpty(); 
 		} while (LoginFaild); 
+		CurrentUser.RegisterLogIn();
 		clsMainScreen::ShowMainMenue(); 
 		return true;
 	}
