@@ -236,6 +236,7 @@ public :
 		else
 			return false;
 	} 
+	//RegisterLogin 
 	void RegisterLogIn() {
 		string stDataLine = _PerpareLogInRecourd(); 
 		fstream MyFile;
