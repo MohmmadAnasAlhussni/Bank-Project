@@ -242,7 +242,8 @@ public:
 
 	enum enPermissions {
 		eAll = -1, pListClients = 1, pAddNewClient = 2,
-		pDeleteClient = 4, pUpdateClient = 8, pFindClient = 16, pTransaction = 32, pMangeUsers = 64
+		pDeleteClient = 4, pUpdateClient = 8, pFindClient = 16,
+		pTransaction = 32, pMangeUsers = 64 , pShowLogInRegister = 128
 	};
 	bool CheckAccessPermissions(enPermissions Permissions) {
 		if (this->Permissions == enPermissions::eAll) {
@@ -263,6 +264,7 @@ public:
 			MyFile.close(); 
 		}
 	}
+	// This Function return struct and this struct include Date/time , UserName , Password , Permissions
 	static vector<stLoginRegisterRecourd> GetLoginRegisterList() {
 		vector<stLoginRegisterRecourd> vstLoginRegisterRecourd; 
 		fstream MyFile; 

@@ -25,7 +25,9 @@ public:
 
     static void ShowLoginRegisterScreen()
     {
-
+        if (!CheckAccessRights(clsUser::pShowLogInRegister)) {
+            return; 
+        }
         vector <clsUser::stLoginRegisterRecourd> vLoginRegisterRecord = clsUser::GetLoginRegisterList();
 
         string Title = "\tLogin Register List Screen";
