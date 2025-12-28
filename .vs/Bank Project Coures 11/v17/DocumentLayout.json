@@ -32,6 +32,10 @@
           "SelectedChildIndex": 3,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "xstring",
@@ -41,12 +45,7 @@
               "RelativeToolTip": "..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\xstring",
               "ViewState": "AgIAACgNAAAAAAAAAAAAwDENAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-12-27T23:47:11.44Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "WhenOpened": "2025-12-27T23:47:11.44Z"
             },
             {
               "$type": "Document",
@@ -56,7 +55,7 @@
               "RelativeDocumentMoniker": "Bank Project Coures 11\\clsLoginRegisterScreen.h",
               "ToolTip": "C:\\Users\\DELL\\Desktop\\Bank Project Coures 11\\Bank Project Coures 11\\clsLoginRegisterScreen.h",
               "RelativeToolTip": "Bank Project Coures 11\\clsLoginRegisterScreen.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAkAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-12-27T22:55:30.393Z",
               "EditorCaption": ""
@@ -69,7 +68,7 @@
               "RelativeDocumentMoniker": "Bank Project Coures 11\\clsUser.h",
               "ToolTip": "C:\\Users\\DELL\\Desktop\\Bank Project Coures 11\\Bank Project Coures 11\\clsUser.h",
               "RelativeToolTip": "Bank Project Coures 11\\clsUser.h",
-              "ViewState": "AgIAAFUAAAAAAAAAAAAAwFsAAAAWAAAAAAAAAA==",
+              "ViewState": "AgIAABEBAAAAAAAAAAAAwBEBAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-12-27T22:50:27.661Z",
               "EditorCaption": ""
@@ -84,8 +83,7 @@
               "RelativeToolTip": "Bank Project Coures 11\\clsMainScreen.h",
               "ViewState": "AgIAADgAAAAAAAAAAAAlwDwAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-12-27T22:45:38.925Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-27T22:45:38.925Z"
             },
             {
               "$type": "Document",
@@ -97,8 +95,7 @@
               "RelativeToolTip": "Bank Project Coures 11\\clsListUsersScreen.h",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABkAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-12-27T22:31:53.001Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-12-27T22:31:53.001Z"
             }
           ]
         }

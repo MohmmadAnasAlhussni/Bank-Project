@@ -264,19 +264,21 @@ public:
 		}
 	}
 	static vector<stLoginRegisterRecourd> GetLoginRegisterList() {
-		vector<stLoginRegisterRecourd> vLoginRegisterRecourd; 
+		vector<stLoginRegisterRecourd> vstLoginRegisterRecourd; 
 		fstream MyFile; 
-		MyFile.open("LoginRegister.txt", ios::in); 
+		MyFile.open("LoginRegister.txt", ios::in);
 		if (MyFile.is_open()) {
-			string Line; 
-			stLoginRegisterRecourd LoginRegisterRecourd; 
+
+			string Line;
+
+			stLoginRegisterRecourd LoginRegisterRecord;
 			while (getline(MyFile, Line)) {
-				LoginRegisterRecourd = _ConvertLoginRegisterLineToRecourd(Line); 
-				vLoginRegisterRecourd.push_back(LoginRegisterRecourd); 
+				LoginRegisterRecord = _ConvertLoginRegisterLineToRecourd(Line);
+				vstLoginRegisterRecourd.push_back(LoginRegisterRecord);
 			}
-			MyFile.close(); 
 		}
-		return vLoginRegisterRecourd;
+		MyFile.close(); 
+		return vstLoginRegisterRecourd;
 	}
 };
 

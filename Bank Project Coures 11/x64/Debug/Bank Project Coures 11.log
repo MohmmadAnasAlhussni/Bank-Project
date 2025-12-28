@@ -36,6 +36,11 @@ C:\Users\DELL\Desktop\Bank Project Coures 11\Bank Project Coures 11\clsUser.h(7,
 C:\Users\DELL\Desktop\Bank Project Coures 11\Bank Project Coures 11\clsDate.h(6,9): warning C4067: unexpected tokens following preprocessor directive - expected a newline
   (compiling source file 'Bank%20Project%20Coures%2011.cpp')
   
+C:\Users\DELL\Desktop\Bank Project Coures 11\Bank Project Coures 11\clsUser.h(121,9): warning C4240: nonstandard extension used: access to 'clsUser::stLoginRegisterRecourd' now defined to be 'public', previously it was defined to be 'private'
+  (compiling source file 'Bank%20Project%20Coures%2011.cpp')
+      C:\Users\DELL\Desktop\Bank Project Coures 11\Bank Project Coures 11\clsUser.h(94,9):
+      see declaration of 'clsUser::stLoginRegisterRecourd'
+  
 C:\Users\DELL\Desktop\Bank Project Coures 11\Bank Project Coures 11\clsScreen.h(5,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
   (compiling source file 'Bank%20Project%20Coures%2011.cpp')
   
@@ -225,15 +230,6 @@ C:\Users\DELL\Desktop\Bank Project Coures 11\Bank Project Coures 11\clsMainScree
 C:\Users\DELL\Desktop\Bank Project Coures 11\Bank Project Coures 11\clsMainScreen.h(13,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
   (compiling source file 'Bank%20Project%20Coures%2011.cpp')
   
-C:\Users\DELL\Desktop\Bank Project Coures 11\Bank Project Coures 11\clsLoginRegisterScreen.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-  (compiling source file 'Bank%20Project%20Coures%2011.cpp')
-  
-C:\Users\DELL\Desktop\Bank Project Coures 11\Bank Project Coures 11\clsLoginRegisterScreen.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-  (compiling source file 'Bank%20Project%20Coures%2011.cpp')
-  
-C:\Users\DELL\Desktop\Bank Project Coures 11\Bank Project Coures 11\clsLoginRegisterScreen.h(5,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-  (compiling source file 'Bank%20Project%20Coures%2011.cpp')
-  
 C:\Users\DELL\Desktop\Bank Project Coures 11\Bank Project Coures 11\Bank Project Coures 11.cpp(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
 C:\Users\DELL\Desktop\Bank Project Coures 11\Bank Project Coures 11\clsLoginScreen.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
   (compiling source file 'Bank%20Project%20Coures%2011.cpp')
@@ -246,5 +242,5 @@ C:\Users\DELL\Desktop\Bank Project Coures 11\Bank Project Coures 11\clsLoginScre
   
 C:\Users\DELL\Desktop\Bank Project Coures 11\Bank Project Coures 11\clsBankClient.h(198,1): warning C4715: 'clsBankClient::Save': not all control paths return a value
 C:\Users\DELL\Desktop\Bank Project Coures 11\Bank Project Coures 11\clsBankClient.h(239,1): warning C4715: 'clsBankClient::Withdraw': not all control paths return a value
-C:\Users\DELL\Desktop\Bank Project Coures 11\Bank Project Coures 11\clsUser.h(216,1): warning C4715: 'clsUser::Save': not all control paths return a value
+C:\Users\DELL\Desktop\Bank Project Coures 11\Bank Project Coures 11\clsUser.h(218,1): warning C4715: 'clsUser::Save': not all control paths return a value
   Bank Project Coures 11.vcxproj -> C:\Users\DELL\Desktop\Bank Project Coures 11\x64\Debug\Bank Project Coures 11.exe
