@@ -45,7 +45,7 @@ public :
 		char Answer = 'n'; 
 		cin >> Answer; 
 		if (Answer == 'y' || Answer == 'Y') {
-			if (SourceClient.Transfer(Amount, DestinationClient)) {
+			if (SourceClient.Transfer(Amount, DestinationClient , CurrentUser.UserName)) {
 				cout << "\nTransfer done Successfully\n";
 			}
 			else {
