@@ -22,16 +22,16 @@ public :
 		else
 			return false;
 	}
-	static bool IsDateBetween(clsDate Date, clsDate DateFrom, clsDate DateTo) {
-		if ((clsDate::IsDate1AfterDate2(Date, DateFrom) || clsDate::IsDate1EqualDate2(Date, DateFrom))
+	static bool IsDateBetween(clsDate DateTime, clsDate DateFrom, clsDate DateTo) {
+		if ((clsDate::IsDate1AfterDate2(DateTime, DateFrom) || clsDate::IsDate1EqualDate2(DateTime, DateFrom))
 			&&
-			(clsDate::IsDate1BeforeDate2(Date, DateTo) || clsDate::IsDate1EqualDate2(Date, DateTo))
+			(clsDate::IsDate1BeforeDate2(DateTime, DateTo) || clsDate::IsDate1EqualDate2(DateTime, DateTo))
 			) {
 			return true; 
 		}
-		if ((clsDate::IsDate1AfterDate2(Date, DateTo) || clsDate::IsDate1EqualDate2(Date, DateTo))
+		if ((clsDate::IsDate1AfterDate2(DateTime, DateTo) || clsDate::IsDate1EqualDate2(DateTime, DateTo))
 			&&
-			(clsDate::IsDate1BeforeDate2(Date, DateFrom) || clsDate::IsDate1EqualDate2(Date, DateFrom))
+			(clsDate::IsDate1BeforeDate2(DateTime, DateFrom) || clsDate::IsDate1EqualDate2(DateTime, DateFrom))
 			) {
 			return true;
 		}
@@ -92,8 +92,8 @@ public :
 		}
 		return Number;
 	}
-	static bool IsValidDate(clsDate Date) {
-		return Date.IsValidDate(); 
+	static bool IsValidDate(clsDate DateTime) {
+		return DateTime.IsValidDate(); 
 	}
 	static string ReadString() {
 		string S1;

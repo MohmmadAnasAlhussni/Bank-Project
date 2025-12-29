@@ -101,13 +101,26 @@ private:
 		 void  _RegisterTransferLog(float Amount , clsBankClient DestinationClient , string UserName) {
 			 string stDataLine = _PrepareTransferLogRecord(Amount, DestinationClient, UserName);
 			 fstream MyFile; 
-			MyFile.open("TransferLog.txt", ios::out | ios::app);
+			MyFile.open("TransferLogRecord.txt", ios::out | ios::app);
 			if (MyFile.is_open()) {
 			
 				MyFile << stDataLine << endl;
 				MyFile.close(); 
 			}
 		}
+		struct stTransferLogRecord ;
+		 static stTransferLogRecord _ConvertTransferLogLineToRecord(string DataLien , string Seperator="#//#") {
+			 stTransferLogRecord TransferLog;
+			 vector<string> vString = clsString::Split(DataLien, Seperator); 
+			 TransferLog.DateTime = vString[0]; 
+			 TransferLog.SAccountNumber = vString[1]; 
+			 TransferLog.DAccountNumber = vString[2]; 
+			 TransferLog.Amount = stoi(vString[3]);
+			 TransferLog.SAccountBalance = stoi(vString[4]);
+			 TransferLog.DAccountBalance = stoi(vString[5]); 
+			 TransferLog.UserName = vString[6]; 
+			 return TransferLog; 
+		 }
 public : 
 	clsBankClient(enMode Mode,string FirstName, string LastName, string Email, string Phone, string AccountNumber, string PinCode, double AccountBalance) :
 		clsPerson(FirstName, LastName, Email, Phone) {
@@ -267,6 +280,30 @@ public :
 		 _RegisterTransferLog(Amount , DestinationClient , UserName);
 		 return true; 
 	 }
-	 
+	 struct  stTransferLogRecord
+	 {
+		 string DateTime; 
+		 string SAccountNumber; 
+		 string DAccountNumber; 
+		 float Amount; 
+		 float SAccountBalance; 
+		 float DAccountBalance; 
+		 string UserName; 
+	 };
+	 static vector<stTransferLogRecord> GetTransferLogList() {
+		 fstream MyFile; 
+		 vector<stTransferLogRecord> vStTransferLogRecord; 
+		 MyFile.open("TransferLogRecord.txt", ios::in);
+		 if (MyFile.is_open()) {
+			 string Line; 
+			 stTransferLogRecord  TransferLogRecord; 
+			 while (getline(MyFile, Line)) {
+				 TransferLogRecord = _ConvertTransferLogLineToRecord(Line);
+				 vStTransferLogRecord.push_back(TransferLogRecord);
+			}
+			 MyFile.close();
+		 }
+		 return vStTransferLogRecord;
+	 }
 };
 
