@@ -5,6 +5,7 @@
 #include<string>
 #include <vector>
 #include "clsDate.h" ; 
+#include "clsUtitl.h"  ; 
 class clsUser : public clsPerson
 {
 private:
@@ -17,7 +18,7 @@ private:
 	static clsUser _ConvertLineToUserObject(string Line, string Seperator = "#//#") {
 		vector<string> vUserData;
 		vUserData = clsString::Split(Line, Seperator);
-		return clsUser(enMode::UpdateMode, vUserData[0], vUserData[1], vUserData[2], vUserData[3], vUserData[4], vUserData[5], stoi(vUserData[6]));
+		return clsUser(enMode::UpdateMode, vUserData[0], vUserData[1], vUserData[2], vUserData[3], vUserData[4],clsUtitl::DecryptText(vUserData[5]), stoi(vUserData[6]));
 	}
 	static clsUser _GetEmptyUserObject() {
 		return clsUser(enMode::EmptyMode, "", "", "", "", "", "", 0);
@@ -44,7 +45,7 @@ private:
 		DataLine += User.Email + Seperator;
 		DataLine += User.Phone + Seperator;
 		DataLine += User.UserName + Seperator;
-		DataLine += User.Password + Seperator;
+		DataLine += clsUtitl::EncryptText(User.Password) + Seperator;
 		DataLine += to_string(User.Permissions);
 		return DataLine;
 	}
@@ -67,6 +68,7 @@ private:
 		for (clsUser& U : vUsers) {
 			if (U.UserName == UserName) {
 				U = *this;
+				U.Password = clsUtitl::EncryptText(this->Password , 2);
 				break;
 			}
 		}
@@ -87,7 +89,7 @@ private:
 		string LoginRecourd = "";
 		LoginRecourd += clsDate::GetSystemDateTimeString() + Seperator;
 		LoginRecourd += UserName + Seperator;
-		LoginRecourd += Password + Seperator;
+		LoginRecourd +=clsUtitl::EncryptText(Password) + Seperator;
 		LoginRecourd += to_string(Permissions);
 		return LoginRecourd;
 	}
@@ -97,7 +99,7 @@ private:
 		vector<string>LoginRegisterDataLine = clsString::Split(Line, Seperator); 
 		LoginRegisterRecourd.DateTime = LoginRegisterDataLine[0]; 
 		LoginRegisterRecourd.UserName = LoginRegisterDataLine[1];
-		LoginRegisterRecourd.Password = LoginRegisterDataLine[2];
+		LoginRegisterRecourd.Password = clsUtitl::DecryptText(LoginRegisterDataLine[2]);
 		LoginRegisterRecourd.Permissions =stoi(LoginRegisterDataLine[3]);
 		return LoginRegisterRecourd;
 	}

@@ -36,9 +36,15 @@ C:\Users\DELL\Desktop\Bank Project Coures 11\Bank Project Coures 11\clsUser.h(7,
 C:\Users\DELL\Desktop\Bank Project Coures 11\Bank Project Coures 11\clsDate.h(6,9): warning C4067: unexpected tokens following preprocessor directive - expected a newline
   (compiling source file 'Bank%20Project%20Coures%2011.cpp')
   
-C:\Users\DELL\Desktop\Bank Project Coures 11\Bank Project Coures 11\clsUser.h(121,9): warning C4240: nonstandard extension used: access to 'clsUser::stLoginRegisterRecourd' now defined to be 'public', previously it was defined to be 'private'
+C:\Users\DELL\Desktop\Bank Project Coures 11\Bank Project Coures 11\clsUser.h(8,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
   (compiling source file 'Bank%20Project%20Coures%2011.cpp')
-      C:\Users\DELL\Desktop\Bank Project Coures 11\Bank Project Coures 11\clsUser.h(94,9):
+  
+C:\Users\DELL\Desktop\Bank Project Coures 11\Bank Project Coures 11\clsUtitl.h(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'Bank%20Project%20Coures%2011.cpp')
+  
+C:\Users\DELL\Desktop\Bank Project Coures 11\Bank Project Coures 11\clsUser.h(123,9): warning C4240: nonstandard extension used: access to 'clsUser::stLoginRegisterRecourd' now defined to be 'public', previously it was defined to be 'private'
+  (compiling source file 'Bank%20Project%20Coures%2011.cpp')
+      C:\Users\DELL\Desktop\Bank Project Coures 11\Bank Project Coures 11\clsUser.h(96,9):
       see declaration of 'clsUser::stLoginRegisterRecourd'
   
 C:\Users\DELL\Desktop\Bank Project Coures 11\Bank Project Coures 11\clsScreen.h(5,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
@@ -71,12 +77,18 @@ C:\Users\DELL\Desktop\Bank Project Coures 11\Bank Project Coures 11\clsBankClien
 C:\Users\DELL\Desktop\Bank Project Coures 11\Bank Project Coures 11\clsBankClient.h(6,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
   (compiling source file 'Bank%20Project%20Coures%2011.cpp')
   
-C:\Users\DELL\Desktop\Bank Project Coures 11\Bank Project Coures 11\clsBankClient.h(283,11): warning C4240: nonstandard extension used: access to 'clsBankClient::stTransferLog' now defined to be 'public', previously it was defined to be 'private'
+C:\Users\DELL\Desktop\Bank Project Coures 11\Bank Project Coures 11\clsBankClient.h(283,11): warning C4240: nonstandard extension used: access to 'clsBankClient::stTransferLogRecord' now defined to be 'public', previously it was defined to be 'private'
   (compiling source file 'Bank%20Project%20Coures%2011.cpp')
       C:\Users\DELL\Desktop\Bank Project Coures 11\Bank Project Coures 11\clsBankClient.h(111,10):
-      see declaration of 'clsBankClient::stTransferLog'
+      see declaration of 'clsBankClient::stTransferLogRecord'
   
 C:\Users\DELL\Desktop\Bank Project Coures 11\Bank Project Coures 11\clsBankClient.h(118,30): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Bank%20Project%20Coures%2011.cpp')
+  
+C:\Users\DELL\Desktop\Bank Project Coures 11\Bank Project Coures 11\clsBankClient.h(119,39): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'Bank%20Project%20Coures%2011.cpp')
+  
+C:\Users\DELL\Desktop\Bank Project Coures 11\Bank Project Coures 11\clsBankClient.h(120,39): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
   (compiling source file 'Bank%20Project%20Coures%2011.cpp')
   
 C:\Users\DELL\Desktop\Bank Project Coures 11\Bank Project Coures 11\clsClientListScreen.h(6,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
@@ -158,9 +170,6 @@ C:\Users\DELL\Desktop\Bank Project Coures 11\Bank Project Coures 11\clsTotalBala
   (compiling source file 'Bank%20Project%20Coures%2011.cpp')
   
 C:\Users\DELL\Desktop\Bank Project Coures 11\Bank Project Coures 11\clsTotalBalancesScreen.h(5,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-  (compiling source file 'Bank%20Project%20Coures%2011.cpp')
-  
-C:\Users\DELL\Desktop\Bank Project Coures 11\Bank Project Coures 11\clsUtitl.h(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
   (compiling source file 'Bank%20Project%20Coures%2011.cpp')
   
 C:\Users\DELL\Desktop\Bank Project Coures 11\Bank Project Coures 11\clsTotalBalancesScreen.h(43,68): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
@@ -270,6 +279,6 @@ C:\Users\DELL\Desktop\Bank Project Coures 11\Bank Project Coures 11\clsLoginScre
   (compiling source file 'Bank%20Project%20Coures%2011.cpp')
   
 C:\Users\DELL\Desktop\Bank Project Coures 11\Bank Project Coures 11\clsBankClient.h(232,1): warning C4715: 'clsBankClient::Save': not all control paths return a value
-C:\Users\DELL\Desktop\Bank Project Coures 11\Bank Project Coures 11\clsUser.h(218,1): warning C4715: 'clsUser::Save': not all control paths return a value
 C:\Users\DELL\Desktop\Bank Project Coures 11\Bank Project Coures 11\clsBankClient.h(273,1): warning C4715: 'clsBankClient::Withdraw': not all control paths return a value
+C:\Users\DELL\Desktop\Bank Project Coures 11\Bank Project Coures 11\clsUser.h(220,1): warning C4715: 'clsUser::Save': not all control paths return a value
   Bank Project Coures 11.vcxproj -> C:\Users\DELL\Desktop\Bank Project Coures 11\x64\Debug\Bank Project Coures 11.exe
