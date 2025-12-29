@@ -83,6 +83,15 @@ public :
 		}
 		return Number;
 	}
+	static float ReadFloatNumber(string ErrorMessage = "Invaild Number ,Enter agine\n") {
+		float Number;
+		while (!(cin >> Number)) {
+			cin.clear();
+			cin.ignore(numeric_limits<streamsize>::max(), '\n');
+			cout << ErrorMessage;
+		}
+		return Number;
+	}
 	static bool IsValidDate(clsDate Date) {
 		return Date.IsValidDate(); 
 	}

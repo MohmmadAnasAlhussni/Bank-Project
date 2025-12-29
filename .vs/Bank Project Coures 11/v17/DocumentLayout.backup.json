@@ -3,35 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\DELL\\Desktop\\Bank Project Coures 11\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{24467682-6B13-474D-ABC0-C82E9B7A1227}|Bank Project Coures 11\\Bank Project Coures 11.vcxproj|C:\\Users\\DELL\\Desktop\\Bank Project Coures 11\\Bank Project Coures 11\\clsLoginRegisterScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{24467682-6B13-474D-ABC0-C82E9B7A1227}|Bank Project Coures 11\\Bank Project Coures 11.vcxproj|solutionrelative:Bank Project Coures 11\\clsLoginRegisterScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{24467682-6B13-474D-ABC0-C82E9B7A1227}|Bank Project Coures 11\\Bank Project Coures 11.vcxproj|C:\\Users\\DELL\\Desktop\\Bank Project Coures 11\\Bank Project Coures 11\\clsTransferScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{24467682-6B13-474D-ABC0-C82E9B7A1227}|Bank Project Coures 11\\Bank Project Coures 11.vcxproj|solutionrelative:Bank Project Coures 11\\clsTransferScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{24467682-6B13-474D-ABC0-C82E9B7A1227}|Bank Project Coures 11\\Bank Project Coures 11.vcxproj|C:\\Users\\DELL\\Desktop\\Bank Project Coures 11\\Bank Project Coures 11\\clsMainScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{24467682-6B13-474D-ABC0-C82E9B7A1227}|Bank Project Coures 11\\Bank Project Coures 11.vcxproj|solutionrelative:Bank Project Coures 11\\clsMainScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{24467682-6B13-474D-ABC0-C82E9B7A1227}|Bank Project Coures 11\\Bank Project Coures 11.vcxproj|C:\\Users\\DELL\\Desktop\\Bank Project Coures 11\\Bank Project Coures 11\\clsTransactionScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{24467682-6B13-474D-ABC0-C82E9B7A1227}|Bank Project Coures 11\\Bank Project Coures 11.vcxproj|solutionrelative:Bank Project Coures 11\\clsTransactionScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{24467682-6B13-474D-ABC0-C82E9B7A1227}|Bank Project Coures 11\\Bank Project Coures 11.vcxproj|C:\\Users\\DELL\\Desktop\\Bank Project Coures 11\\Bank Project Coures 11\\clsListUsersScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{24467682-6B13-474D-ABC0-C82E9B7A1227}|Bank Project Coures 11\\Bank Project Coures 11.vcxproj|solutionrelative:Bank Project Coures 11\\clsListUsersScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{24467682-6B13-474D-ABC0-C82E9B7A1227}|Bank Project Coures 11\\Bank Project Coures 11.vcxproj|C:\\Users\\DELL\\Desktop\\Bank Project Coures 11\\Bank Project Coures 11\\clsInputValidate.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{24467682-6B13-474D-ABC0-C82E9B7A1227}|Bank Project Coures 11\\Bank Project Coures 11.vcxproj|solutionrelative:Bank Project Coures 11\\clsInputValidate.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{24467682-6B13-474D-ABC0-C82E9B7A1227}|Bank Project Coures 11\\Bank Project Coures 11.vcxproj|C:\\Users\\DELL\\Desktop\\Bank Project Coures 11\\Bank Project Coures 11\\clsUpdateUserScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{24467682-6B13-474D-ABC0-C82E9B7A1227}|Bank Project Coures 11\\Bank Project Coures 11.vcxproj|solutionrelative:Bank Project Coures 11\\clsUpdateUserScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{24467682-6B13-474D-ABC0-C82E9B7A1227}|Bank Project Coures 11\\Bank Project Coures 11.vcxproj|C:\\Users\\DELL\\Desktop\\Bank Project Coures 11\\Bank Project Coures 11\\clsAddNewUserScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{24467682-6B13-474D-ABC0-C82E9B7A1227}|Bank Project Coures 11\\Bank Project Coures 11.vcxproj|solutionrelative:Bank Project Coures 11\\clsAddNewUserScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{24467682-6B13-474D-ABC0-C82E9B7A1227}|Bank Project Coures 11\\Bank Project Coures 11.vcxproj|C:\\Users\\DELL\\Desktop\\Bank Project Coures 11\\Bank Project Coures 11\\clsScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{24467682-6B13-474D-ABC0-C82E9B7A1227}|Bank Project Coures 11\\Bank Project Coures 11.vcxproj|solutionrelative:Bank Project Coures 11\\clsScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{24467682-6B13-474D-ABC0-C82E9B7A1227}|Bank Project Coures 11\\Bank Project Coures 11.vcxproj|C:\\Users\\DELL\\Desktop\\Bank Project Coures 11\\Bank Project Coures 11\\clsUser.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{24467682-6B13-474D-ABC0-C82E9B7A1227}|Bank Project Coures 11\\Bank Project Coures 11.vcxproj|solutionrelative:Bank Project Coures 11\\clsUser.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{24467682-6B13-474D-ABC0-C82E9B7A1227}|Bank Project Coures 11\\Bank Project Coures 11.vcxproj|C:\\PROGRAM FILES\\MICROSOFT VISUAL STUDIO\\2022\\COMMUNITY\\VC\\TOOLS\\MSVC\\14.44.35207\\INCLUDE\\XSTRING||{3B902123-F8A7-4915-9F01-361F908088D0}|"
+      "AbsoluteMoniker": "D:0:0:{24467682-6B13-474D-ABC0-C82E9B7A1227}|Bank Project Coures 11\\Bank Project Coures 11.vcxproj|C:\\Users\\DELL\\Desktop\\Bank Project Coures 11\\Bank Project Coures 11\\clsBankClient.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{24467682-6B13-474D-ABC0-C82E9B7A1227}|Bank Project Coures 11\\Bank Project Coures 11.vcxproj|solutionrelative:Bank Project Coures 11\\clsBankClient.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -41,114 +26,63 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 3,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "clsUpdateUserScreen.h",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Bank Project Coures 11\\Bank Project Coures 11\\clsUpdateUserScreen.h",
-              "RelativeDocumentMoniker": "Bank Project Coures 11\\clsUpdateUserScreen.h",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\Bank Project Coures 11\\Bank Project Coures 11\\clsUpdateUserScreen.h*",
-              "RelativeToolTip": "Bank Project Coures 11\\clsUpdateUserScreen.h*",
-              "ViewState": "AgIAAEMAAAAAAAAAAAAAAEoAAAAnAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "clsInputValidate.h",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Bank Project Coures 11\\Bank Project Coures 11\\clsInputValidate.h",
+              "RelativeDocumentMoniker": "Bank Project Coures 11\\clsInputValidate.h",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Bank Project Coures 11\\Bank Project Coures 11\\clsInputValidate.h",
+              "RelativeToolTip": "Bank Project Coures 11\\clsInputValidate.h",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAQwF0AAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-12-28T10:37:17.736Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "clsAddNewUserScreen.h",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Bank Project Coures 11\\Bank Project Coures 11\\clsAddNewUserScreen.h",
-              "RelativeDocumentMoniker": "Bank Project Coures 11\\clsAddNewUserScreen.h",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\Bank Project Coures 11\\Bank Project Coures 11\\clsAddNewUserScreen.h*",
-              "RelativeToolTip": "Bank Project Coures 11\\clsAddNewUserScreen.h*",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAAAFYAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-12-28T10:34:54.18Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "clsScreen.h",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Bank Project Coures 11\\Bank Project Coures 11\\clsScreen.h",
-              "RelativeDocumentMoniker": "Bank Project Coures 11\\clsScreen.h",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\Bank Project Coures 11\\Bank Project Coures 11\\clsScreen.h",
-              "RelativeToolTip": "Bank Project Coures 11\\clsScreen.h",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAwAkAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-12-28T10:33:39.788Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "xstring",
-              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\xstring",
-              "RelativeDocumentMoniker": "..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\xstring",
-              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\xstring",
-              "RelativeToolTip": "..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.44.35207\\include\\xstring",
-              "ViewState": "AgIAACgNAAAAAAAAAAAAwDENAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2025-12-27T23:47:11.44Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "clsLoginRegisterScreen.h",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Bank Project Coures 11\\Bank Project Coures 11\\clsLoginRegisterScreen.h",
-              "RelativeDocumentMoniker": "Bank Project Coures 11\\clsLoginRegisterScreen.h",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\Bank Project Coures 11\\Bank Project Coures 11\\clsLoginRegisterScreen.h*",
-              "RelativeToolTip": "Bank Project Coures 11\\clsLoginRegisterScreen.h*",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAABsAAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-12-27T22:55:30.393Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "clsUser.h",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Bank Project Coures 11\\Bank Project Coures 11\\clsUser.h",
-              "RelativeDocumentMoniker": "Bank Project Coures 11\\clsUser.h",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\Bank Project Coures 11\\Bank Project Coures 11\\clsUser.h*",
-              "RelativeToolTip": "Bank Project Coures 11\\clsUser.h*",
-              "ViewState": "AgIAANoAAAAAAAAAAAAAAPoAAAA3AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-12-27T22:50:27.661Z",
+              "WhenOpened": "2025-12-28T12:51:07.434Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "clsMainScreen.h",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Bank Project Coures 11\\Bank Project Coures 11\\clsMainScreen.h",
-              "RelativeDocumentMoniker": "Bank Project Coures 11\\clsMainScreen.h",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\Bank Project Coures 11\\Bank Project Coures 11\\clsMainScreen.h",
-              "RelativeToolTip": "Bank Project Coures 11\\clsMainScreen.h",
-              "ViewState": "AgIAACkAAAAAAAAAAAAlwC0AAAArAAAAAAAAAA==",
+              "Title": "clsTransactionScreen.h",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Bank Project Coures 11\\Bank Project Coures 11\\clsTransactionScreen.h",
+              "RelativeDocumentMoniker": "Bank Project Coures 11\\clsTransactionScreen.h",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Bank Project Coures 11\\Bank Project Coures 11\\clsTransactionScreen.h",
+              "RelativeToolTip": "Bank Project Coures 11\\clsTransactionScreen.h",
+              "ViewState": "AgIAABYAAAAAAAAAAAAAwCEAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-12-27T22:45:38.925Z",
+              "WhenOpened": "2025-12-28T12:45:46.753Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "clsListUsersScreen.h",
-              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Bank Project Coures 11\\Bank Project Coures 11\\clsListUsersScreen.h",
-              "RelativeDocumentMoniker": "Bank Project Coures 11\\clsListUsersScreen.h",
-              "ToolTip": "C:\\Users\\DELL\\Desktop\\Bank Project Coures 11\\Bank Project Coures 11\\clsListUsersScreen.h",
-              "RelativeToolTip": "Bank Project Coures 11\\clsListUsersScreen.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAeAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "clsBankClient.h",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Bank Project Coures 11\\Bank Project Coures 11\\clsBankClient.h",
+              "RelativeDocumentMoniker": "Bank Project Coures 11\\clsBankClient.h",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Bank Project Coures 11\\Bank Project Coures 11\\clsBankClient.h",
+              "RelativeToolTip": "Bank Project Coures 11\\clsBankClient.h",
+              "ViewState": "AgIAAOYAAAAAAAAAAAAAwO8AAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-12-27T22:31:53.001Z",
+              "WhenOpened": "2025-12-28T11:45:29.194Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "clsTransferScreen.h",
+              "DocumentMoniker": "C:\\Users\\DELL\\Desktop\\Bank Project Coures 11\\Bank Project Coures 11\\clsTransferScreen.h",
+              "RelativeDocumentMoniker": "Bank Project Coures 11\\clsTransferScreen.h",
+              "ToolTip": "C:\\Users\\DELL\\Desktop\\Bank Project Coures 11\\Bank Project Coures 11\\clsTransferScreen.h",
+              "RelativeToolTip": "Bank Project Coures 11\\clsTransferScreen.h",
+              "ViewState": "AgIAACcAAAAAAAAAAAAQwDcAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-28T11:39:46.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             }
           ]
         }
