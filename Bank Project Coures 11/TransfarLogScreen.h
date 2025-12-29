@@ -14,6 +14,7 @@ private :
 		cout << "| " << left << setw(16) << TransferLog.UserName;
 	}
 public : 
+	//Show TransferLog Screen
 	static void ShowTransfarLogScreen() {
 		vector<clsBankClient::stTransferLogRecord> vTransferLogRecord = clsBankClient::GetTransferLogList();
 		string Title = "\tTransfar Log List Screen";
