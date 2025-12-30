@@ -5,6 +5,7 @@
 #include <string>
 #include "clsString.h" ; 
 using namespace std; 
+//This Class To Currency Sytem 
 class clsCurrency
 {
 private : 
