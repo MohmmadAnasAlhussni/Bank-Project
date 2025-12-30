@@ -3,6 +3,7 @@
 #include <vector> 
 #include <iomanip>
 #include "clsCurrency.h" ; 
+// Show List Currencies List
 class clsCurrenciesListScreen : protected clsScreen
 {
 private : 
