@@ -1,7 +1,8 @@
 #pragma once
 #include <iostream>
+#include "InterfaceCommunication.h" ; 
 using namespace std; 
-class clsPerson
+class clsPerson : public InterfaceCommunication
 {
 private : 
 	string _FirstName;
@@ -47,6 +48,15 @@ private :
 			string FullName; 
 			FullName = _FirstName + _LastName; 
 			return FullName; 
+		}
+		void SendEmail(string Title, string Body) {
+
+		}
+		void SendFax(string Title, string Body) {
+
+		}
+		void SendSMS(string Title, string Body) {
+
 		}
 };
 
