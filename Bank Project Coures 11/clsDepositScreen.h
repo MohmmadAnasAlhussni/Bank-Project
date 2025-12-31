@@ -34,7 +34,7 @@ public :
 		_PrintClient(Client); 
 		double Amount = 0; 
 		cout << "Please Enter deposit Amount ?"; 
-		Amount = clsInputValidate::ReadDblNumber(); 
+		Amount = clsInputValidate::ReadNumber<double>(); 
 		char Answer = 'n'; 
 		cout << "\nAre You Sure you want to perform  This Transactions ?"; 
 		cin >> Answer; 

@@ -286,6 +286,43 @@ C:\Users\DELL\Desktop\Bank Project Coures 11\Bank Project Coures 11\clsCurrencie
 C:\Users\DELL\Desktop\Bank Project Coures 11\Bank Project Coures 11\clsCurrency.h(6,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
   (compiling source file 'Bank%20Project%20Coures%2011.cpp')
   
+C:\Users\DELL\Desktop\Bank Project Coures 11\Bank Project Coures 11\clsShowCurrencyMainScreen.h(7,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'Bank%20Project%20Coures%2011.cpp')
+  
+C:\Users\DELL\Desktop\Bank Project Coures 11\Bank Project Coures 11\clsShowCurrencyMainScreen.h(8,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'Bank%20Project%20Coures%2011.cpp')
+  
+C:\Users\DELL\Desktop\Bank Project Coures 11\Bank Project Coures 11\clsUpdateRateCurrencyScreen.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'Bank%20Project%20Coures%2011.cpp')
+  
+C:\Users\DELL\Desktop\Bank Project Coures 11\Bank Project Coures 11\clsUpdateRateCurrencyScreen.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'Bank%20Project%20Coures%2011.cpp')
+  
+C:\Users\DELL\Desktop\Bank Project Coures 11\Bank Project Coures 11\clsUpdateRateCurrencyScreen.h(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'Bank%20Project%20Coures%2011.cpp')
+  
+C:\Users\DELL\Desktop\Bank Project Coures 11\Bank Project Coures 11\clsUpdateRateCurrencyScreen.h(23,55): warning C4244: '=': conversion from 'T' to 'float', possible loss of data
+C:\Users\DELL\Desktop\Bank Project Coures 11\Bank Project Coures 11\clsUpdateRateCurrencyScreen.h(23,55): warning C4244:         with
+C:\Users\DELL\Desktop\Bank Project Coures 11\Bank Project Coures 11\clsUpdateRateCurrencyScreen.h(23,55): warning C4244:         [
+C:\Users\DELL\Desktop\Bank Project Coures 11\Bank Project Coures 11\clsUpdateRateCurrencyScreen.h(23,55): warning C4244:             T=double
+C:\Users\DELL\Desktop\Bank Project Coures 11\Bank Project Coures 11\clsUpdateRateCurrencyScreen.h(23,55): warning C4244:         ]
+  (compiling source file 'Bank%20Project%20Coures%2011.cpp')
+  
+C:\Users\DELL\Desktop\Bank Project Coures 11\Bank Project Coures 11\clsShowCurrencyMainScreen.h(9,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'Bank%20Project%20Coures%2011.cpp')
+  
+C:\Users\DELL\Desktop\Bank Project Coures 11\Bank Project Coures 11\clsCurrencyCalculatorScreen.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'Bank%20Project%20Coures%2011.cpp')
+  
+C:\Users\DELL\Desktop\Bank Project Coures 11\Bank Project Coures 11\clsCurrencyCalculatorScreen.h(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'Bank%20Project%20Coures%2011.cpp')
+  
+C:\Users\DELL\Desktop\Bank Project Coures 11\Bank Project Coures 11\clsCurrencyCalculatorScreen.h(4,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'Bank%20Project%20Coures%2011.cpp')
+  
+C:\Users\DELL\Desktop\Bank Project Coures 11\Bank Project Coures 11\clsCurrencyCalculatorScreen.h(5,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  (compiling source file 'Bank%20Project%20Coures%2011.cpp')
+  
 C:\Users\DELL\Desktop\Bank Project Coures 11\Bank Project Coures 11\Bank Project Coures 11.cpp(3,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
 C:\Users\DELL\Desktop\Bank Project Coures 11\Bank Project Coures 11\clsLoginScreen.h(2,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
   (compiling source file 'Bank%20Project%20Coures%2011.cpp')

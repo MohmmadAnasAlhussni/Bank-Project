@@ -15,7 +15,7 @@ private :
 	};
 	static short _ReadMangeUserMenueOption() {
 		cout << setw(39) << left << "" << "Choose what do you want [1-6]?";
-		short Choice = clsInputValidate::ReadShortNumberBetween(1, 6, "Enter Number between 1 to 6 ");
+		short Choice = clsInputValidate::ReadNumberBetween<short>(1, 6, "Enter Number between 1 to 6 ");
 		return Choice;
 	}
 	static void _ShowListUsersScreen() {

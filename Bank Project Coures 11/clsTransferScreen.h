@@ -26,10 +26,10 @@ private :
 	static float ReadAmount(clsBankClient SourcsClient) {
 		float Amount; 
 		cout << "\nEnter Transfer Amount?"; 
-		Amount = clsInputValidate::ReadFloatNumber(); 
+		Amount = clsInputValidate::ReadNumber<float>(); 
 		while (Amount > SourcsClient.AccountBalance) {
 			cout << "Amount Exceeds the available Balance , Enter Another Amount?";
-			Amount = clsInputValidate::ReadFloatNumber();
+			Amount = clsInputValidate::ReadNumber<float>();
 		}
 		return Amount; 
 	}

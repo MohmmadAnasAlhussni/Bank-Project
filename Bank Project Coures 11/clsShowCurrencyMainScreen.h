@@ -4,6 +4,9 @@
 #include "clsInputValidate.h"
 #include <iomanip>
 #include "clsCurrenciesListScreen.h" ; 
+#include "clsFindCurrancyScreen.h" ; 
+#include "clsUpdateRateCurrencyScreen.h" ; 
+#include "clsCurrencyCalculatorScreen.h" ; 
 using namespace std; 
 
 class clsCurrencyExchangeMainScreen :protected clsScreen
@@ -18,7 +21,7 @@ private:
     static short ReadCurrenciesMainMenueOptions()
     {
         cout << setw(37) << left << "" << "Choose what do you want to do? [1 to 5]? ";
-        short Choice = clsInputValidate::ReadShortNumberBetween(1, 5, "Enter Number between 1 to 5? ");
+        short Choice = clsInputValidate::ReadNumberBetween<short>(1, 5, "Enter Number between 1 to 5? ");
         return Choice;
     }
 
@@ -37,18 +40,21 @@ private:
 
     static void _ShowFindCurrencyScreen()
     {
-        cout << "\nFind Currency Screen Will Be Here.\n";
-
+        //cout << "\nFind Currency Screen Will Be Here.\n";
+        clsFindCurrencyScreen::ShowFindCurrencyScreen(); 
+        
     }
 
     static void _ShowUpdateCurrencyRateScreen()
     {
-        cout << "\nUpdate Currency Rate Screen Will Be Here.\n";
+     //   cout << "\nUpdate Currency Rate Screen Will Be Here.\n";
+        clsUpdateCurrencyRateScreen::ShowUpdateCurrencyRateScreen(); 
     }
 
     static void _ShowCurrencyCalculatorScreen()
     {
-        cout << "\nCurrency Calculator Screen Will Be Here.\n";
+        //cout << "\nCurrency Calculator Screen Will Be Here.\n";
+        clsCurrencyCalculatorScreen::ShowCurrencyCalculatorScreen(); 
 
     }
 
